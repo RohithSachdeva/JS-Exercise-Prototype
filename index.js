@@ -77,7 +77,9 @@ this.milesPerGallon = milesPerGallon;
 this.tank = 0;
 this.odometer = 0;
 }
-Car.prototype.fill
+Car.prototype.fill = function(gallons) {
+  return this.tank = (this.tank + gallons);
+};
 
 /*
   TASK 3
