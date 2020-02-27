@@ -77,6 +77,7 @@ this.milesPerGallon = milesPerGallon;
 this.tank = 0;
 this.odometer = 0;
 }
+Car.prototype.fill
 
 /*
   TASK 3
@@ -97,10 +98,10 @@ Baby.prototype.play = function(){
   TASK 4
 
   In your own words explain the four principles for the "this" keyword below:
-  1. 
-  2. 
-  3. 
-  4. 
+  1. When used alone, it refers to the global object.. whether in strict mode or not.    
+  2. When used in a function, it will default to the global object if not used in strict mode.  
+  3. When strict mode is active, it will return to undefinted if used in a function w no object context.
+  4. When used in a method, the method can refer 'this' to any object. 
 */
 
 
